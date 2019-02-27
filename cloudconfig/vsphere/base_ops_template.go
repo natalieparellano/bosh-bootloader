@@ -98,20 +98,5 @@ const (
   path: /vm_extensions/name=100GB_ephemeral_disk/cloud_properties?
   value:
     disk: 102400
-
-- type: replace
-  path: /vm_extensions/-
-  value:
-    name: cf-router-network-properties
-
-- type: replace
-  path: /vm_extensions/-
-  value:
-    name: cf-tcp-router-network-properties
-
-- type: replace
-  path: /vm_extensions/-
-  value:
-    name: diego-ssh-proxy-network-properties
 `
 )
